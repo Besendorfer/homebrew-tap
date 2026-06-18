@@ -2,22 +2,22 @@
 class Marrow < Formula
   desc "Surface the parts of a GitHub PR that matter — an AI PR review TUI"
   homepage "https://github.com/Besendorfer/marrow"
-  version "0.1.0-alpha.1"
+  version "0.1.0-alpha.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Besendorfer/marrow/releases/download/cli-v0.1.0-alpha.1/marrow-aarch64-apple-darwin.tar.gz"
-      sha256 "f6a29c67018017d0ebb5cde3e492e84ffe124af327e002bdca095982680ad138"
+      url "https://github.com/Besendorfer/marrow/releases/download/cli-v0.1.0-alpha.2/marrow-aarch64-apple-darwin.tar.gz"
+      sha256 "08e7507929bc284e7c7612af7e98bc1ac57f553cb7a13bac84c87284db8abe01"
     else
-      url "https://github.com/Besendorfer/marrow/releases/download/cli-v0.1.0-alpha.1/marrow-x86_64-apple-darwin.tar.gz"
-      sha256 "20ca037e82529ebf58649e9aceb7f8cf7f14678ec2b01dcbade8808d00166068"
+      url "https://github.com/Besendorfer/marrow/releases/download/cli-v0.1.0-alpha.2/marrow-x86_64-apple-darwin.tar.gz"
+      sha256 "3936e622f9217483c9eb7b83c021144cf67312b172c101ebfd346e71dac63cd6"
     end
   end
 
   on_linux do
-    url "https://github.com/Besendorfer/marrow/releases/download/cli-v0.1.0-alpha.1/marrow-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "6a9b1cbba75e48f1bd1d897000f95cd901ce8835f7f3266326f1d7c876bbd900"
+    url "https://github.com/Besendorfer/marrow/releases/download/cli-v0.1.0-alpha.2/marrow-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "cb8582ba5593cce4a753b97fd0ae4cbf4fe557c43aae3e899dab68668fc9f9ff"
   end
 
   def install
