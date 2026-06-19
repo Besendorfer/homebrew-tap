@@ -28,5 +28,3 @@ class Marrow < Formula
     assert_match "marrow", shell_output("#{bin}/marrow --help 2>&1")
   end
 end
-
-# ci-write-test marker — will be overwritten by the workflow
