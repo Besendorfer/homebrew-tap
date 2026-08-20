@@ -1,6 +1,6 @@
 cask "marrow" do
-  version "0.35.0"
-  sha256 "8d2a63077b9243c4bd610a6409fa0efa17e67783562b7a40b74d7d33c993abd7"
+  version "0.35.1"
+  sha256 "521a15fa21918223da9678da50ef10ac4071a448ca06463a7a7cc91574b55ccc"
 
   url "https://github.com/Besendorfer/marrow/releases/download/v#{version}/Marrow_aarch64.dmg"
   name "Marrow"
